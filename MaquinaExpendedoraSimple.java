@@ -64,4 +64,14 @@
         // Queda preparada para el proximo cliente
         balanceClienteActual = 0;
     }
+    
+    public MaquinaExpendedoraSimple(int precioDelBillete, String destino) {
+        precioBillete = 0;
+        balanceClienteActual = 0;
+        totalDineroAcumulado = 0;
+        estacionOrigen = "León";
+        estacionDestino = destino;
+    }
+    
+    
 }
