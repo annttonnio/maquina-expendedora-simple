@@ -73,5 +73,8 @@
         estacionDestino = destino;
     }
     
+     public int getTotalDineroAcumulado() {
+        return totalDineroAcumulado;
+    }
     
 }
