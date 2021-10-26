@@ -84,4 +84,12 @@
     public void rebaja(int cantidadIntroducida) {
         precioBillete = precioBillete - cantidadIntroducida;
     }
+    
+    public void getVaciarDepositoDinero () {
+        totalDineroAcumulado = 0;
+         System.out.println("El dinero acumulado es de " + 
+             totalDineroAcumulado   + " euros .");
+    }
+
+
 }
