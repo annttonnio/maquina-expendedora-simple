@@ -77,8 +77,8 @@
         return totalDineroAcumulado;
     }
     
-    public void setPrecioBillete (int precioBillete) {
-        this.precioBillete = precioBillete;   
+    public void setPrecioBillete (int precioDelBillete) {
+        precioBillete = precioDelBillete;   
     }
     
 }
