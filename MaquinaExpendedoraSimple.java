@@ -81,4 +81,7 @@
         precioBillete = precioDelBillete;   
     }
     
+    public void rebaja(int cantidadIntroducida) {
+        precioBillete = precioBillete - cantidadIntroducida;
+    }
 }
